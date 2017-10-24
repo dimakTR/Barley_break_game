@@ -5,6 +5,7 @@
         clearInterval(timer);
             counter = 0;
             $("#clock").text("0");
+            $("#counter").text("0");
         };
     function startInterval(){
         timer = setInterval(function() {
